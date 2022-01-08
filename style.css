@@ -16,6 +16,8 @@
     background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;     
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 header{
     height: auto;
@@ -188,7 +190,7 @@ footer{
 .rodape{
     display: flex;
     flex-wrap: wrap-reverse;
-    gap: 10rem;
+    gap: 8rem;
 }
 .rodape_01 i{
     margin: 0 auto;
