@@ -1,0 +1,126 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Yanone+Kaffeesatz:wght@300;500&display=swap');
+
+:root{
+    --font-principal: font-family: 'Raleway', sans-serif;
+    --font-secundaria: font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;     
+    height: 200vh;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: rgb(75, 73, 73) solid 2px;
+}
+header i{
+    padding: 1rem;
+    font-size: 3rem;
+    color: yellow;
+}
+
+.menu{
+    display: flex;
+    flex-direction: rom;
+    gap: 3rem;
+}
+
+.menu a{
+    font-family: var(--font-secundaria);
+    font-weight: 300;
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: 5px 5px rgb(7, 7, 7);
+    padding: 1rem;
+    border-radius: 11px;
+}
+
+.menu a:hover{
+    border: 2px solid yellow;
+    background-color: rgba(0, 0, 0, 0.192);
+    transition: all 1s;
+}
+
+.principal{
+    position: absolute;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+@keyframes entrada{
+    0% {
+        left: -100rem;
+    }
+    100%{
+        left: 0rem;
+    }
+}
+.principal img{
+    position: relative;
+    border-radius: 300px;
+    animation: entrada 2s;
+}
+.java-texto{
+    position: relative;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    color: white;
+    animation: entrada 3s;
+}
+
+.java-texto strong{
+    background-color: yellow;
+    color: black;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.java-texto h1{
+    font-family: var(--font-principal);
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.java-texto p{
+    font-family: var(--font-secundaria);
+    font-weight: 300;
+    font-size: 1rem;
+}
+.java-texto a{
+    margin: 0 auto;
+    width: 15rem;
+    font-family: var(--font-secundaria);
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: .5rem;
+    border-radius: 15px;
+    color: yellow;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    transition: opacity 1s;
+}
+.java-texto a:hover{
+    opacity: .5;
+}
