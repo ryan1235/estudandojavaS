@@ -187,10 +187,11 @@ footer{
 }
 .rodape{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 10rem;
 }
 .rodape_01 i{
+    margin: 0 auto;
     padding: 2rem;
     color: yellow;
     font-size: 3rem;
