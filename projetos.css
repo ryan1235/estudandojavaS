@@ -1,0 +1,70 @@
+main h1{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid yellow;
+    width: 18rem;
+    padding: 1rem 0;
+}
+
+.modulo-01{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main h2{
+    color: white;
+    margin-top: 5rem;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 95%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.exercícios{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(99, 98, 98);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.exercícios h2{
+    margin-top: 0;
+    border: none;
+    font-size: 1.3rem;
+    width: 17rem;
+}
+
+.exercícios img{
+    border-radius: 15px;
+}
+.exercícios p{
+    font-size: 1.2rem;
+}
+.exercícios a{
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 15px;
+    background-color: yellow;
+    border: 2px solid white;
+    transition: opacity 1s;
+}
+
+.exercícios a:hover{
+    opacity: .4;
+}
