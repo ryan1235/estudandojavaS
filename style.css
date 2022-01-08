@@ -10,12 +10,12 @@
     padding: 0;
     text-decoration: none;
 }
-body{
+.conteiner{
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-repeat: no-repeat;     
-    height: 500vh;
+    height: 100%;
 }
 header{
     height: auto;
@@ -179,4 +179,89 @@ header i{
 .diferenças li{
     padding: 1rem;
     text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+.rodape_01 i{
+    padding: 2rem;
+    color: yellow;
+    font-size: 3rem;
+}
+.rodape_01 p{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.rodape_02{
+    text-align: center;
+    padding-top: 2rem;
+}
+.rodape_02 h4{
+    font-size: 2rem;
+}
+.rodape_02 a{
+    color: yellow;
+}
+
+.rodape_03{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.rodape_03 a{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 4px solid rgb(243, 237, 237);
+    background-color: yellow;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+    width: 6rem;
+}
+.rodape_03 h4{
+    padding-right: 5rem;
+    text-align: center;
+}
+.rodape_03 a:hover{
+    opacity: 0.7;
+}
+
+.rodape_03 i{
+   font-size: 1.5rem;
+}
+.botao{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 1rem;
+    width: 20em;
+}
+#b1{
+    color: red;
+}
+#b2{
+    color: rgb(0, 183, 255);
+}
+#b3{
+    color: #c13584;
+}
+#b4{
+    color: black;
 }
