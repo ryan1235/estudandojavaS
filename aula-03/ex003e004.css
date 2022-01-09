@@ -1,0 +1,29 @@
+main{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3rem;
+    height: 100vh;
+}
+
+.area{
+    margin: 0 auto;
+    background-color: gray;
+    width: 15rem;
+    height: 15rem;
+    line-height: 15rem;
+    text-align: center;
+}
+.soma h1{
+    padding: 1rem;
+}
+
+#res{
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 2rem;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 25rem;
+}
