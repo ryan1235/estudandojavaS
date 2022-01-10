@@ -7,7 +7,7 @@ main{
 }
 .hora{
     padding: 1rem;
-    margin: 0 auto;
+    margin: auto;
     border-radius: 15px;
     border: 5px yellow solid;
     width:17rem;
