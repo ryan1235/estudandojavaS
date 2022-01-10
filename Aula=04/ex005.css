@@ -8,7 +8,7 @@ main{
 .multas{
     border: 2px solid yellow;
     border-radius: 15px;
-    width: 20rem;
+    width: 15rem;
     margin: 0 auto;
 }
 
@@ -31,6 +31,7 @@ main{
     padding: 0.5rem;
     border-radius: 15px;
     border: solid 2px yellow;
+    margin-top: 1rem;
     margin-left: 1rem;
 }
 
