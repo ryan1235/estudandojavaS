@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/estudandojavaS/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/estudandojavaS/style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="ex005.css">
     <title>Desenvolvendo javaScript</title>
 </head>
@@ -24,7 +24,14 @@
         <main>
             <div class="multas">
             <h1>Qual pais você vive?</h1>
-            <input type="text" id="pais">
+            <input type="radio" name="pais" class="pais" id="br" checked>
+            <label for="pais">brasil</label>
+            <input type="radio" name="pais" class="pais" id="pt">
+            <label for="pais">Portugal</label>       
+            <input type="radio" name="pais" class="pais" id="eu">
+            <label for="pais">Estados Unidos</label>   
+            <input type="radio" name="pais" class="pais" id="ca">
+            <label for="pais">canadá</label>    
             <button id="check" onclick="checar()">checar</button>
             <h2 id="resposta"></h2>
         </div>
@@ -59,13 +66,17 @@
     </div>
     </footer>
     <script>
-            let pais = document.getElementById('pais')
-            let resposta = document.getElementById('resposta')
+        var res = document.getElementById('resposta')
+        var pais = document.getElementsByClassName('pais')
         function checar(){
-            if(pais.value != 'brasil') {
-                resposta.innerHTML = 'você é brasileiro'
-            }else{
-                resposta.innerHTML = `você é de ${pais.value} então você é estrangeiro`
+            if(pais[0].checked){
+                res.innerHTML = 'você é brasileiro!'
+            }else if(pais[1].checked){
+                res.innerHTML = 'você é portugues'
+            }else if(pais[2].checked){
+                res.innerHTML = 'você é americano'
+            }else if(pais[3].checked){
+                res.innerHTML = 'você é canadense'
             }
         }
         
