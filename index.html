@@ -11,15 +11,20 @@
 </head>
 
 <body>
+    <div id="preloader">
+        <div class="inner">
+            <img src="img/preloader.gif" alt="preloader">
+        </div>
+    </div>
     <div class="conteiner">
     <header>
         <i class="fab fa-js-square"></i>
-        <div class="menu">
+        <nav class="menu">
             <a href="#">inicio</a>
-            <a href="#texto-h2">Sobre o JavaScript</a>
+            <a id="roll" href="#texto">Sobre o JavaScript</a>
             <a href="projetos.html">projetos</a>
             <a href="">Sobre mim</a>
-        </div>
+        </nav>
     </header>
     <main>
         <section class="principal">
@@ -36,7 +41,7 @@
             </picture>
         </section>
         <section id="texto" class="sobre-java">
-            <h2 id="texto-h2"> O que é java Script?</h2>
+            <h2 O que é java Script?</h2>
             <picture>
                 <source media="(max-width:1000px)" srcset="./img/javascript-Mobile.jpg">
                 <img id="texto-img" src="./img/javascript.jpg" alt="javascript">
@@ -91,9 +96,8 @@
                 </div>
             </div>
     </footer>
-</div>
-</footer>
-
 </body>
-
+    <script src="Js/jquery-3.6.0.min.js"></script>
+    <script src="Js/preloader.js"></script>
+    <script src="Js/scroll-suave.js"></script>
 </html>
