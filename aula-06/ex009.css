@@ -45,7 +45,9 @@ main button:hover{
 #nu3{
     margin-bottom: 2rem;
 }
-
+.res {
+    display: flex;
+}
 .res p{
     margin: 0 auto;
     width: 15rem;
