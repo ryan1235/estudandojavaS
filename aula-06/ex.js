@@ -18,15 +18,15 @@ function contar() {
         if(Inicio < fim) {
             //contagem crecente
             for (let c = Inicio; c <= fim; c += passo) {
-                ress.innerHTML += `${c}\u{27A1}`
+                ress.innerHTML += `<p>${c}\u{27A1}</p>`
             }
             }else{
                 //cpmtagem regresiva
                 for(let c = Inicio; c >= fim; c -= passo){
-                    ress.innerHTML += `${c}\u{27A1}`  
+                    ress.innerHTML += `<p>${c}\u{27A1}</p>`  
                 }
             }
-            ress.innerHTML += ` \u{1F3C1}`
+            ress.innerHTML += `<p>\u{1F3C1}</p>`
         }
 
     }
